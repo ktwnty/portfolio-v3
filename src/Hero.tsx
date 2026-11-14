@@ -1,9 +1,9 @@
-import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import { useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import { Draggable } from "gsap/Draggable";
 import { MapPin } from "lucide-react";
 import { SplitChars } from "./shared";
-import { BADGES, PROFILE } from "./data";
+import { BADGES } from "./data";
 
 const HERO_METRICS: { value: string; count?: number; label: string }[] = [
   { value: "06", count: 4, label: "Production systems shipped" },
@@ -11,16 +11,6 @@ const HERO_METRICS: { value: string; count?: number; label: string }[] = [
   { value: "60", count: 60, label: "fps motion budget" },
   { value: "+7", label: "Available in WIB timezone" },
 ];
-
-function Uptime() {
-  const [s, setS] = useState(0);
-  useEffect(() => {
-    const id = window.setInterval(() => setS((v) => v + 1), 1000);
-    return () => window.clearInterval(id);
-  }, []);
-  const p = (n: number) => String(n).padStart(2, "0");
-  return <span className="tabular-nums text-white">{`${p(Math.floor(s / 3600))}:${p(Math.floor(s / 60) % 60)}:${p(s % 60)}`}</span>;
-}
 
 const CARD = "glass cursor-grab border border-line p-4 font-mono text-xs active:cursor-grabbing md:absolute md:w-64";
 
@@ -102,7 +92,7 @@ export default function Hero() {
 
           <span data-hero-meta className="inline-flex items-center gap-2 font-mono text-xs text-mute">
             <MapPin size={14} className="text-accent" />
-            TanjungPinang, IDN · {PROFILE.coords}
+            Tanjungpinang, IDN · 0.9101° N, 104.4584° E
           </span>
         </div>
 
