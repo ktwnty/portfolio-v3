@@ -92,7 +92,7 @@ export default function Hero() {
 
           <span data-hero-meta className="inline-flex items-center gap-2 font-mono text-xs text-mute">
             <MapPin size={14} className="text-accent" />
-            Tanjungpinang, IDN · 0.9101° N, 104.4584° E
+            Tanjungpinang, IDN
           </span>
         </div>
 

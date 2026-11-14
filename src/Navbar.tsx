@@ -108,7 +108,7 @@ export default function Navbar() {
 
         <div className="flex items-center gap-2">
           <div className="hidden items-center gap-2 border-l border-line pl-3 font-mono text-[11px] text-mute xl:flex">
-            <span className="tabular-nums">0.9101° N, 104.4584° E</span>
+            <span className="tabular-nums"></span>
           </div>
           <div className="flex items-center gap-2 rounded-full border border-line px-3 py-1.5 font-mono text-xs tabular-nums">
             <span className="relative flex h-1.5 w-1.5">
@@ -149,7 +149,7 @@ export default function Navbar() {
               {l.label}
             </a>
           ))}
-          <p className="mt-4 font-mono text-[11px] text-mute">0.9101° N, 104.4584° E · Available for freelance</p>
+          <p className="mt-4 font-mono text-[11px] text-mute"></p>
         </div>
       )}
     </header>
