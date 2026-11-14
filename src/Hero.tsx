@@ -6,7 +6,7 @@ import { SplitChars } from "./shared";
 import { BADGES } from "./data";
 
 const HERO_METRICS: { value: string; count?: number; label: string }[] = [
-  { value: "06", count: 4, label: "Production systems shipped" },
+  { value: "6+", count: 6, label: "Production systems shipped" },
   { value: "03", count: 3, label: "Disciplines: code, design, motion" },
   { value: "60", count: 60, label: "fps motion budget" },
   { value: "+7", label: "Available in WIB timezone" },
