@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="Monochrome portrait frame, alternate">
+  <defs>
+    <linearGradient id="bg" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1b1c33"/><stop offset="1" stop-color="#0a0a0e"/></linearGradient>
+    <radialGradient id="rim" cx=".75" cy=".3" r=".7"><stop offset="0" stop-color="#818cf8" stop-opacity=".55"/><stop offset="1" stop-color="#818cf8" stop-opacity="0"/></radialGradient>
+    <linearGradient id="skin" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a2b45"/><stop offset="1" stop-color="#0c0c11"/></linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg)"/>
+  <circle cx="290" cy="130" r="230" fill="url(#rim)"/>
+  <path d="M70 500 C70 400 150 350 240 350 C320 350 380 400 380 500 Z" fill="url(#skin)" stroke="#818cf8" stroke-opacity=".5"/>
+  <rect x="214" y="298" width="52" height="64" fill="#14141f"/>
+  <ellipse cx="240" cy="225" rx="64" ry="82" fill="url(#skin)" stroke="#818cf8" stroke-opacity=".7"/>
+  <path d="M176 214 C170 140 220 112 254 118 C298 126 312 168 302 216 C282 176 236 160 176 214 Z" fill="#050507" stroke="#818cf8" stroke-opacity=".5"/>
+  <g stroke="#818cf8" stroke-opacity=".2"><path d="M0 100H400M0 220H400M0 340H400M80 0V500M200 0V500M320 0V500"/></g>
+  <text x="200" y="470" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="44" fill="#818cf8" fill-opacity=".5">N.K.</text>
+</svg>
